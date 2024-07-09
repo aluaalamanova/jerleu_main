@@ -1,0 +1,218 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  font-family: 'Georgia', serif;
+}
+
+.navbar {
+  background-color: green;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.navbar-nav .nav-link {
+  color: white !important;
+  font-family: 'Georgia', serif;
+}
+.footer {
+  background-color: green;
+  color: white;
+  padding: 20px;
+  font-family: 'Georgia', serif;
+  text-align: center;
+}
+
+.info-box {
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.info-img {
+  height: 120px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+
+.info-title {
+  padding-top: 50px;
+  font-family: 'Georgia', serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.info-subtitle {
+  padding-top: 20px;
+  font-family: 'Georgia', serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: green;
+}
+
+.info-description {
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.custom-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #28a745;
+  background-color: #fff;
+  border: 2px solid #28a745;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.custom-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25));
+  transition: transform 0.3s ease;
+  transform: translateX(-100%);
+}
+
+.custom-button:hover::before {
+  transform: translateX(0);
+}
+
+.custom-button:hover {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+
+.service-box {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.service-box-green {
+  background: #d4edda;
+}
+
+.service-box img {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.service-box h4 {
+  font-size: 20px;
+  font-family: 'Georgia', serif;
+  margin-top: 10px;
+}
+
+.about-box {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: bold;-
+font-family: 'Georgia', serif;
+  margin-bottom: 20px;
+  padding-top: 70px;
+}
+
+.about-text p {
+  padding-top: 20px;
+  font-size: 18px;
+  font-family: 'Georgia', serif;
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+.gallery-container {
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item {
+  margin-bottom: 30px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-item h4 {
+  font-size: 20px;
+  font-family: 'Georgia', serif;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.faq-section {
+  padding: 50px 0;
+}
+
+.faq-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+}
+
+.faq-image {
+  height: 300px;
+  margin-bottom: 20px;
+  width: 395px;
+}
+
+.accordion .card {
+  border: none;
+  margin-bottom: 10px;
+}
+
+.accordion .card-header {
+  background-color: green;
+  font-family: 'Georgia', serif;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.accordion .btn-link {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Georgia', serif;
+}
+
+.accordion .btn-link:hover {
+  color: #e0e0e0;
+  font-family: 'Georgia', serif;
+}
+
+.accordion .card-body {
+  background-color: #f9f9f9;
+  font-family: 'Georgia', serif;
+}
